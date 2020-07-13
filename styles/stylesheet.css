@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+}
+
+.custom-nav-bar {
+  z-index: 10;
+  position: fixed;
+  background-color: black;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  overflow: hidden;
+  /* width: 400px; */
+}
+
+.custom-nav-bar .container {
+  padding-top: 5px;
+}
+
+.main-heading {
+  font-size: 40px;
+  color: white;
+  font-weight: 200px;
+  mix-blend-mode: difference;
+  /* z-index: 10; */
+}
+
+.introduction {
+  background-image: url("../music-2.jpg");
+  /* background-size: 500px 500px; */
+  background-size: 100% auto;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  height: 95vh;
+}
+
+.title-section {
+  padding: 300px 100px;
+}
+
+.title-section h1 {
+  text-align: center;
+  color: white;
+  font-size: 90px;
+  font-weight: 900;
+}
+
+.music-section {
+  /* margin-top: 100px; */
+  padding: 100px 30px;
+}
+
+.music-section h1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 900;
+  padding-bottom: 50px;
+}
+
+.col-lg-4 {
+  text-align: center;
+}
+
+.music-tile-1 {
+  background-image: url("../Dj2.jpg");
+  background-repeat: no-repeat;
+  height: 300px;
+  margin-bottom: 30px;
+  transition-property: opacity visibility;
+  transition-duration: 0.5s;
+  /* width: 30px; */
+}
+
+.music-tile-1:hover {
+  opacity: 0.5;
+}
+.music-tile-2:hover {
+  opacity: 0.5;
+}
+.music-tile-3:hover {
+  opacity: 0.5;
+}
+
+.music-tile-1:hover .title a {
+  opacity: 1;
+  color: red;
+}
+
+.music-tile-2 {
+  background-image: url("../Dj2.jpg");
+  background-repeat: no-repeat;
+  height: 300px;
+  padding-bottom: 30px;
+  transition-property: opacity;
+  transition-duration: 0.5s;
+  /* width: 30px; */
+}
+
+.music-tile-3 {
+  background-image: url("../Dj2.jpg");
+  background-repeat: no-repeat;
+  height: 300px;
+  padding-bottom: 30px;
+  transition-property: opacity;
+  transition-duration: 0.5s;
+  /* width: 30px; */
+}
+
+.tile {
+  padding: 100px;
+  padding-top: 120px;
+  padding-left: 70px;
+  padding-right: 130px;
+  color: black;
+  opacity: 0.4;
+}
+.tile a {
+  color: white;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.bottom-section {
+  background-color: #383e56;
+  color: white;
+  padding: 50px;
+}
+
+.carousel-item {
+  height: 350px;
+  text-align: center;
+}
+
+img {
+  margin-top: 20px;
+  border-radius: 100%;
+  height: 190px;
+  width: 190px;
+}
+
+.carousel-item h2 {
+  margin-top: 20px;
+}
